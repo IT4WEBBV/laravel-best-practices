@@ -456,8 +456,8 @@ Controller | singular | ArticleController | ~~ArticlesController~~
 Route | plural | articles/1 | ~~article/1~~
 Named route | snake_case with dot notation | users.show_active | ~~users.show-active, show-active-users~~
 Model | singular | User | ~~Users~~
-hasOne or belongsTo relationship | singular | articleComment | ~~articleComments, article_comment~~
-All other relationships | plural | articleComments | ~~articleComment, article_comments~~
+hasOne or belongsTo relationship | singular | comment | ~~articleComments, article_comment~~
+All other relationships | plural | comments | ~~articleComment, article_comments~~
 Table | plural | article_comments | ~~article_comment, articleComments~~
 Pivot table | singular model names in alphabetical order | article_user | ~~user_article, articles_users~~
 Table column | snake_case without model name | meta_title | ~~MetaTitle; article_meta_title~~
